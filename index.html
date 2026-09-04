@@ -1,0 +1,197 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Radar TT-FAPESP</title>
+<style>
+  :root {
+    color-scheme: light dark;
+    --bg: #f7f7f5;
+    --card: #ffffff;
+    --text: #1a1a1a;
+    --muted: #666666;
+    --border: #e2e2e0;
+    --accent: #1d4ed8;
+    --accent-soft: #e8edfc;
+    --warn: #b45309;
+    --warn-soft: #fdf0dc;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #15161a;
+      --card: #1e2025;
+      --text: #ececec;
+      --muted: #9a9a9a;
+      --border: #2c2e33;
+      --accent: #7da2ff;
+      --accent-soft: #1e2a4a;
+      --warn: #f2b664;
+      --warn-soft: #3a2c14;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: -apple-system, Segoe UI, Roboto, sans-serif;
+    padding: 24px 16px 64px;
+  }
+  .wrap { max-width: 880px; margin: 0 auto; }
+  h1 { font-size: 1.5rem; margin: 0 0 4px; }
+  .subtitle { color: var(--muted); font-size: 0.9rem; margin: 0 0 20px; }
+  .toolbar {
+    display: flex; flex-wrap: wrap; gap: 8px;
+    margin-bottom: 20px;
+  }
+  .chip {
+    border: 1px solid var(--border);
+    background: var(--card);
+    color: var(--text);
+    border-radius: 999px;
+    padding: 6px 14px;
+    font-size: 0.85rem;
+    cursor: pointer;
+    user-select: none;
+  }
+  .chip[aria-pressed="true"] {
+    background: var(--accent-soft);
+    border-color: var(--accent);
+    color: var(--accent);
+    font-weight: 600;
+  }
+  .card {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 16px 18px;
+    margin-bottom: 12px;
+  }
+  .card-top {
+    display: flex; justify-content: space-between; align-items: flex-start; gap: 12px;
+  }
+  .card h2 {
+    font-size: 1.05rem;
+    margin: 0 0 6px;
+  }
+  .card h2 a { color: var(--text); text-decoration: none; }
+  .card h2 a:hover { text-decoration: underline; }
+  .badge {
+    flex-shrink: 0;
+    background: var(--accent-soft);
+    color: var(--accent);
+    font-size: 0.75rem;
+    font-weight: 600;
+    padding: 3px 10px;
+    border-radius: 999px;
+    white-space: nowrap;
+  }
+  .meta { color: var(--muted); font-size: 0.85rem; margin: 0 0 8px; }
+  .deadline { font-size: 0.85rem; margin: 0 0 8px; }
+  .deadline.urgent { color: var(--warn); font-weight: 600; }
+  .summary { font-size: 0.9rem; color: var(--text); margin: 0; opacity: 0.9; }
+  .empty, .loading { color: var(--muted); padding: 32px 0; text-align: center; }
+  footer { text-align: center; color: var(--muted); font-size: 0.78rem; margin-top: 32px; }
+  footer a { color: inherit; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>Radar de Bolsas TT — FAPESP</h1>
+  <p class="subtitle" id="subtitle">Carregando oportunidades…</p>
+
+  <div class="toolbar" id="filters"></div>
+
+  <div id="list"></div>
+</div>
+
+<footer>
+  Dados extraídos de <a href="https://fapesp.br/oportunidades/mais-recentes/" target="_blank" rel="noopener">fapesp.br/oportunidades</a>.
+  Atualizado automaticamente 1x por dia.
+</footer>
+
+<script>
+const DATA_URL = "data/oportunidades.json";
+let allOpportunities = [];
+let activeModalities = new Set();
+
+function daysUntil(iso) {
+  if (!iso) return null;
+  const today = new Date();
+  today.setHours(0, 0, 0, 0);
+  const target = new Date(iso + "T00:00:00");
+  return Math.round((target - today) / 86400000);
+}
+
+function render() {
+  const list = document.getElementById("list");
+  const filtered = allOpportunities.filter(
+    (o) => activeModalities.size === 0 || activeModalities.has(o.modality)
+  );
+
+  if (filtered.length === 0) {
+    list.innerHTML = '<p class="empty">Nenhuma oportunidade encontrada para o filtro selecionado.</p>';
+    return;
+  }
+
+  list.innerHTML = filtered
+    .map((o) => {
+      const days = daysUntil(o.deadline);
+      const urgent = days !== null && days <= 5;
+      const deadlineText = o.deadline_display
+        ? `Inscrições até ${o.deadline_display}` + (days !== null ? ` (${days} dia${days === 1 ? "" : "s"})` : "")
+        : "Prazo não informado";
+      return `
+        <article class="card">
+          <div class="card-top">
+            <h2><a href="${o.url}" target="_blank" rel="noopener">${o.title}</a></h2>
+            <span class="badge">${o.modality}</span>
+          </div>
+          <p class="meta">${o.institution}${o.city ? " · " + o.city : ""}</p>
+          <p class="deadline${urgent ? " urgent" : ""}">${deadlineText}</p>
+          <p class="summary">${o.summary}</p>
+        </article>
+      `;
+    })
+    .join("");
+}
+
+function renderFilters(modalities) {
+  const filtersEl = document.getElementById("filters");
+  filtersEl.innerHTML = modalities
+    .map((m) => `<button class="chip" data-modality="${m}" aria-pressed="false">${m}</button>`)
+    .join("");
+  filtersEl.querySelectorAll(".chip").forEach((btn) => {
+    btn.addEventListener("click", () => {
+      const m = btn.dataset.modality;
+      if (activeModalities.has(m)) {
+        activeModalities.delete(m);
+        btn.setAttribute("aria-pressed", "false");
+      } else {
+        activeModalities.add(m);
+        btn.setAttribute("aria-pressed", "true");
+      }
+      render();
+    });
+  });
+}
+
+fetch(DATA_URL)
+  .then((r) => r.json())
+  .then((payload) => {
+    allOpportunities = payload.opportunities || [];
+    const modalities = payload.modalities || [...new Set(allOpportunities.map((o) => o.modality))];
+    renderFilters(modalities);
+    const scrapedAt = new Date(payload.scraped_at);
+    document.getElementById("subtitle").textContent =
+      `${allOpportunities.length} oportunidade(s) abertas · atualizado em ${scrapedAt.toLocaleString("pt-BR")}`;
+    render();
+  })
+  .catch((err) => {
+    document.getElementById("subtitle").textContent = "Erro ao carregar dados.";
+    document.getElementById("list").innerHTML = `<p class="empty">${err}</p>`;
+  });
+</script>
+</body>
+</html>
