@@ -1,3 +1,10 @@
 __pycache__/
 *.pyc
 .venv/
+
+# Impeccable (design skill) — local/machine state, not shared via git
+.claude/settings.local.json
+**/skills/impeccable/scripts/bin/
+**/.impeccable/hook.cache.json
+**/.impeccable/hook.pending.json
+.impeccable/
