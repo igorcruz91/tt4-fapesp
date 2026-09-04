@@ -1,61 +1,19 @@
 {
   "source": "https://fapesp.br/oportunidades/mais-recentes/",
-  "scraped_at": "2026-09-04T19:12:53+00:00",
+  "scraped_at": "2026-09-04T19:26:39+00:00",
   "modalities": [
     "TT-IV",
     "TT-IV-A",
     "TT-V"
   ],
-  "count": 11,
+  "count": 5,
   "opportunities": [
-    {
-      "id": "9727",
-      "title": "Bolsa de TT-V em Biologia Molecular e Celular",
-      "modality": "TT-V",
-      "institution": "Escola Paulista de Medicina, Universidade Federal de São Paulo (EPM-Unifesp)",
-      "city": "São Paulo",
-      "deadline": "2026-09-06",
-      "deadline_display": "06/09/2026",
-      "summary": "As atividades propostas envolvem manipulação de células-tronco pluripotentes, execução de protocolos de diferenciação celular, caracterização molecular avançada e organização de dados em larga escala. O bolsista de Treinamento Técnico nível cinco (TT-V) deverá atuar com autonomia na execução experimental, na otimização de protocolos e no...",
-      "url": "https://fapesp.br/oportunidades/neoplasia-endocrina-multipla-tipo-2-(men2)-e-carcinoma-medular-da-tiroide:-novas-questoes-da-biologia-do-desenvolvimento-genetica-imunologia-epidemiologia-mecanismos-de-doenca-e-manejo-clinico/9727/"
-    },
-    {
-      "id": "9788",
-      "title": "Bolsa de TT-IV-A em Neurociências",
-      "modality": "TT-IV-A",
-      "institution": "Faculdade de Medicina de Ribeirão Preto, Universidade de São Paulo (FMRP-USP)",
-      "city": "Ribeirão Preto",
-      "deadline": "2026-09-08",
-      "deadline_display": "08/09/2026",
-      "summary": "As atividades propostas para a(o) bolsista de Treinamento Técnico nível quatro “a” (TT-IV-A) envolverão amplo treinamento na condução de ensaio clínico com metodologia rigorosa, aliado a uma consistente oportunidade de aprimoramento em metodologia científica, neurologia clínica e estimulação transcraniana não-invasiva.\n\nA(O) bolsista atuará na descoberta de biomarcadores...",
-      "url": "https://fapesp.br/oportunidades/telereabilitacao-e-biomarcadores-de-recuperacao-funcional-apos-acidente-vascular-cerebral-no-brasil:-ensaio-clinico-tr-br-1/9788/"
-    },
-    {
-      "id": "9781",
-      "title": "Bolsa de TT-IV em Eletromecânica",
-      "modality": "TT-IV",
-      "institution": "Faculdade de Engenharia e Ciências de Guaratinguetá, Universidade Estadual Paulista (FEG-Unesp)",
-      "city": "Guaratinguetá",
-      "deadline": "2026-09-11",
-      "deadline_display": "11/09/2026",
-      "summary": "O bolsista de Treinamento Técnico nível quatro (TT-IV) desempenhará funções técnicas especializadas de suporte ao projeto de pesquisa, incluindo:\n\nAtividade 1: Elaboração da metodologia de dimensionamento do gaseificador.\n\nAtividade 2: Concepção dos planos e desenhos das principais peças e subsistemas que irão compor a instalação experimental (domínio...",
-      "url": "https://fapesp.br/oportunidades/analises-tecno-economico-da-gaseificacao-de-residuos-do-setor-sucroalcooleiro-integrada-a-processos-fisher-tropsch-para-obtencao-de-biocombustiveis-e-eletricidade/9781/"
-    },
-    {
-      "id": "9543",
-      "title": "Bolsa de TT-IV em Genômica Comparada",
-      "modality": "TT-IV",
-      "institution": "Instituto de Biociências, Universidade de São Paulo (IB-USP)",
-      "city": "São Paulo",
-      "deadline": "2026-09-15",
-      "deadline_display": "15/09/2026",
-      "summary": "O AEON Lab (Adaptive Evolution of Novelty Lab) do Departamento de Genética e Biologia Evolutiva do Instituto de Biociências da USP oferece uma Bolsa FAPESP de Treinamento Técnico nível quatro (TT-IV) vinculada ao Projeto Temático. O(a) bolsista terá papel central na implantação e manutenção da...",
-      "url": "https://fapesp.br/oportunidades/interacoes-bioticas-como-motor-da-inovacao-fenotipica:-integrando-genomica-comparativa-e-eco-evo-devo/9543/"
-    },
     {
       "id": "9802",
       "title": "Bolsa de TT-V em Biofísico-Química",
       "modality": "TT-V",
+      "area": "Química",
+      "interdisciplinary": true,
       "institution": "Instituto de Química, Universidade Estadual de Campinas (IQ-Unicamp)",
       "city": "Campinas",
       "deadline": "2026-09-16",
@@ -67,6 +25,8 @@
       "id": "9728",
       "title": "Bolsa de TT-V em Engenharia / Computação",
       "modality": "TT-V",
+      "area": "Engenharia",
+      "interdisciplinary": true,
       "institution": "Instituto de Pesquisas Tecnológicas (IPT)",
       "city": "São Paulo",
       "deadline": "2026-09-18",
@@ -75,20 +35,11 @@
       "url": "https://fapesp.br/oportunidades/centro-de-pesquisa-aplicada-em-inteligencia-artificial:-impulsionando-a-transformacao-das-industrias-rumo-ao-padrao-5.0-(iasmin)/9728/"
     },
     {
-      "id": "9813",
-      "title": "Bolsa de TT-V em Ciência / Engenharia de Materiais",
-      "modality": "TT-V",
-      "institution": "Biopolix Materiais Tecnológicos Ltda.",
-      "city": "Valinhos",
-      "deadline": "2026-09-20",
-      "deadline_display": "20/09/2026",
-      "summary": "Deve atuar no desenvolvimento e aprimoramento das formulações de biorresinas biodegradáveis; auxiliar na preparação e produção dos lotes experimentais; acompanhar o processamento das biorresinas em escala piloto e industrial; interpretar os resultados das caracterizações térmicas e mecânicas das formulações; dar suporte à avaliação e interpretação...",
-      "url": "https://fapesp.br/oportunidades/filamento-biodegradavel-para-manufatura-aditiva-a-partir-da-biorresina-biox001-modificada-por-nanocargas-/9813/"
-    },
-    {
       "id": "9764",
       "title": "Bolsas de TT-IV em Recuperação da Informação e Inteligência Artificial",
       "modality": "TT-IV",
+      "area": "Ciência da Computação",
+      "interdisciplinary": false,
       "institution": "Institutito de Geociências e Ciências Exatas, Universidade Estadual Paulista (IGCE-Unesp)",
       "city": "Rio Claro",
       "deadline": "2026-09-20",
@@ -100,6 +51,8 @@
       "id": "9795",
       "title": "Bolsa de TT-V em Agrometeorologia e Modelagem Agrícola",
       "modality": "TT-V",
+      "area": "Agronomia",
+      "interdisciplinary": true,
       "institution": "Escola Superior de Agricultura Luiz de Queiroz, Universidade de São Paulo (ESALQ-USP)",
       "city": "Piracicaba",
       "deadline": "2026-09-30",
@@ -108,20 +61,11 @@
       "url": "https://fapesp.br/oportunidades/centro-de-pesquisa-aplicada-em-inovacao-e-sustentabilidade-da-citricultura-(cpa-citros)/9795/"
     },
     {
-      "id": "9746",
-      "title": "Bolsa de TT-IV-A em Biologia Molecular",
-      "modality": "TT-IV-A",
-      "institution": "Faculdade de Medicina de Ribeirão Preto, Universidade de São Paulo (FMRP-USP)",
-      "city": "Ribeirão Preto",
-      "deadline": "2026-09-30",
-      "deadline_display": "30/09/2026",
-      "summary": "O(A) bolsista de Treinamento Técnico nível quatro “a” (TT-IV-A) ingressará no Laboratório de Criopreservação e Modificação Genômica de Zigotos de Roedores da FMRP-USP e atuará, após treinamento e sob supervisão, no manejo e manutenção de colônias de camundongos; reprodução assistida, fertilização in vitro, produção, transferência...",
-      "url": "https://fapesp.br/oportunidades/modernizacao-e-ampliacao-do-laboratorio-de-criopreservacao-e-modificacao-genomica-de-zigotos-de-roedores/9746/"
-    },
-    {
       "id": "9678",
       "title": "Bolsa de TT-V em Inteligência Artificial aplicada à Saúde",
       "modality": "TT-V",
+      "area": "Ciência da Informação",
+      "interdisciplinary": true,
       "institution": "C3M Soluções em Medicina de Catástrofe Ltda.",
       "city": "Campinas",
       "deadline": "2026-09-30",

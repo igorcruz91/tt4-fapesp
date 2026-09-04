@@ -107,7 +107,8 @@
 </div>
 
 <footer>
-  Dados extraídos de <a href="https://fapesp.br/oportunidades/mais-recentes/" target="_blank" rel="noopener">fapesp.br/oportunidades</a>.
+  Dados extraídos de <a href="https://fapesp.br/oportunidades/mais-recentes/" target="_blank" rel="noopener">fapesp.br/oportunidades</a>,
+  já filtrados por área/palavras-chave (física, matemática, ciência da computação, dados/IA/modelagem).
   Atualizado automaticamente 1x por dia.
 </footer>
 
@@ -148,7 +149,10 @@ function render() {
             <h2><a href="${o.url}" target="_blank" rel="noopener">${o.title}</a></h2>
             <span class="badge">${o.modality}</span>
           </div>
-          <p class="meta">${o.institution}${o.city ? " · " + o.city : ""}</p>
+          <p class="meta">
+            ${o.institution}${o.city ? " · " + o.city : ""}
+            ${o.area ? ` · ${o.area}${o.interdisciplinary ? " (interdisciplinar)" : ""}` : ""}
+          </p>
           <p class="deadline${urgent ? " urgent" : ""}">${deadlineText}</p>
           <p class="summary">${o.summary}</p>
         </article>
