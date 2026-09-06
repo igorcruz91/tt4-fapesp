@@ -16,6 +16,14 @@
     --accent-soft: #e8edfc;
     --warn: #b45309;
     --warn-soft: #fdf0dc;
+    --danger: #b91c1c;
+    --danger-soft: #fce6e6;
+    --mod-tt-iv: #1d4ed8;
+    --mod-tt-iv-soft: #e8edfc;
+    --mod-tt-iv-a: #0f766e;
+    --mod-tt-iv-a-soft: #e1f5f2;
+    --mod-tt-v: #7c3aed;
+    --mod-tt-v-soft: #f0e9fd;
   }
   @media (prefers-color-scheme: dark) {
     :root {
@@ -28,6 +36,14 @@
       --accent-soft: #1e2a4a;
       --warn: #f2b664;
       --warn-soft: #3a2c14;
+      --danger: #f87171;
+      --danger-soft: #3a1616;
+      --mod-tt-iv: #7da2ff;
+      --mod-tt-iv-soft: #1e2a4a;
+      --mod-tt-iv-a: #5eead4;
+      --mod-tt-iv-a-soft: #113330;
+      --mod-tt-v: #c4b5fd;
+      --mod-tt-v-soft: #2c2140;
     }
   }
   * { box-sizing: border-box; }
@@ -64,10 +80,14 @@
   .card {
     background: var(--card);
     border: 1px solid var(--border);
+    border-top: 3px solid var(--card-accent, var(--border));
     border-radius: 12px;
     padding: 16px 18px;
     margin-bottom: 12px;
   }
+  .card[data-modality="TT-IV"] { --card-accent: var(--mod-tt-iv); }
+  .card[data-modality="TT-IV-A"] { --card-accent: var(--mod-tt-iv-a); }
+  .card[data-modality="TT-V"] { --card-accent: var(--mod-tt-v); }
   .card-top {
     display: flex; justify-content: space-between; align-items: flex-start; gap: 12px;
   }
@@ -79,17 +99,21 @@
   .card h2 a:hover { text-decoration: underline; }
   .badge {
     flex-shrink: 0;
-    background: var(--accent-soft);
-    color: var(--accent);
+    background: var(--badge-soft, var(--accent-soft));
+    color: var(--badge-color, var(--accent));
     font-size: 0.75rem;
     font-weight: 600;
     padding: 3px 10px;
     border-radius: 999px;
     white-space: nowrap;
   }
+  .badge[data-modality="TT-IV"] { --badge-color: var(--mod-tt-iv); --badge-soft: var(--mod-tt-iv-soft); }
+  .badge[data-modality="TT-IV-A"] { --badge-color: var(--mod-tt-iv-a); --badge-soft: var(--mod-tt-iv-a-soft); }
+  .badge[data-modality="TT-V"] { --badge-color: var(--mod-tt-v); --badge-soft: var(--mod-tt-v-soft); }
   .meta { color: var(--muted); font-size: 0.85rem; margin: 0 0 8px; }
   .deadline { font-size: 0.85rem; margin: 0 0 8px; }
-  .deadline.urgent { color: var(--warn); font-weight: 600; }
+  .deadline.deadline-caution { color: var(--warn); font-weight: 600; }
+  .deadline.deadline-danger { color: var(--danger); font-weight: 700; }
   .summary { font-size: 0.9rem; color: var(--text); margin: 0; opacity: 0.9; }
   .empty, .loading { color: var(--muted); padding: 32px 0; text-align: center; }
   footer { text-align: center; color: var(--muted); font-size: 0.78rem; margin-top: 32px; }
@@ -139,21 +163,25 @@ function render() {
   list.innerHTML = filtered
     .map((o) => {
       const days = daysUntil(o.deadline);
-      const urgent = days !== null && days <= 5;
+      let urgencyClass = "";
+      if (days !== null) {
+        if (days <= 5) urgencyClass = " deadline-danger";
+        else if (days <= 15) urgencyClass = " deadline-caution";
+      }
       const deadlineText = o.deadline_display
         ? `Inscrições até ${o.deadline_display}` + (days !== null ? ` (${days} dia${days === 1 ? "" : "s"})` : "")
         : "Prazo não informado";
       return `
-        <article class="card">
+        <article class="card" data-modality="${o.modality}">
           <div class="card-top">
             <h2><a href="${o.url}" target="_blank" rel="noopener">${o.title}</a></h2>
-            <span class="badge">${o.modality}</span>
+            <span class="badge" data-modality="${o.modality}">${o.modality}</span>
           </div>
           <p class="meta">
             ${o.institution}${o.city ? " · " + o.city : ""}
             ${o.area ? ` · ${o.area}${o.interdisciplinary ? " (interdisciplinar)" : ""}` : ""}
           </p>
-          <p class="deadline${urgent ? " urgent" : ""}">${deadlineText}</p>
+          <p class="deadline${urgencyClass}">${deadlineText}</p>
           <p class="summary">${o.summary}</p>
         </article>
       `;
