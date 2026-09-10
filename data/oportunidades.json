@@ -1,12 +1,12 @@
 {
   "source": "https://fapesp.br/oportunidades/mais-recentes/",
-  "scraped_at": "2026-09-09T16:26:14+00:00",
+  "scraped_at": "2026-09-10T16:15:45+00:00",
   "modalities": [
     "TT-IV",
     "TT-IV-A",
     "TT-V"
   ],
-  "count": 5,
+  "count": 7,
   "opportunities": [
     {
       "id": "9802",
@@ -46,6 +46,32 @@
       "deadline_display": "20/09/2026",
       "summary": "O projeto é uma colaboração internacional entre o Instituto IDIAP (Suíça) e a Universidade Estadual de São Paulo (UNESP), com equipes de pesquisa em ambos os países. O projeto é coordenado pelo Prof. Andre Freitas (IDIAP) e pelo Prof. Daniel Pedronette (UNESP). O bolsista de...",
       "url": "https://fapesp.br/oportunidades/recuperacao-aumentada-e-robusta-para-tarefas-de-inferencia-em-linguagem-natural-utilizando-modelos-baseados-em-transformers-–-rational/9764/"
+    },
+    {
+      "id": "9833",
+      "title": "Bolsa de TT-V em Desenvolvimento Front-End",
+      "modality": "TT-V",
+      "area": "Ciência da Computação",
+      "interdisciplinary": false,
+      "institution": "Neopto Propriedade Imaterial Ltda./NEOPTO",
+      "city": "São Paulo",
+      "deadline": "2026-09-24",
+      "deadline_display": "24/09/2026",
+      "summary": "O(A) bolsista trabalhará em:\n\n1. Interface Intuitiva e Responsiva: navegação fácil e adaptável a qualquer dispositivo (desktop, tablet ou smartphone);\n\n2. Pedidos Ágeis: simplificação da aquisição de materiais para maior eficiência operacional;\n\n3. Segurança e Privacidade: conformidade com a LGPD para proteção total de dados sensíveis;\n\n4. Busca e...",
+      "url": "https://fapesp.br/oportunidades/agentes-de-inteligencia-artificial-para-materiais-complexos-de-hospital-e-saude-(chm)/9833/"
+    },
+    {
+      "id": "9834",
+      "title": "Bolsa de TT-V em Ciência de Dados e Back-End",
+      "modality": "TT-V",
+      "area": "Ciência da Computação",
+      "interdisciplinary": false,
+      "institution": "NeoPTO Propriedade Imaterial Ltda./NEOPTO",
+      "city": "São Paulo",
+      "deadline": "2026-09-24",
+      "deadline_display": "24/09/2026",
+      "summary": "O perfil do(a) bolsista requerido é o de um(a) desenvolvedor(a) sênior na área de dados com experiência em back-end e capacidade de atuar em atividades técnicas complexas, em linha com as exigências da Bolsa FAPESP de Treinamento Técnico nível cinco (TT-V).\n\nEntre as atividades previstas estão:\n\n1....",
+      "url": "https://fapesp.br/oportunidades/agentes-de-inteligencia-artificial-para-materiais-complexos-de-hospital-e-saude-(chm)/9834/"
     },
     {
       "id": "9795",
