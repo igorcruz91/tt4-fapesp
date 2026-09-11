@@ -1,12 +1,12 @@
 {
   "source": "https://fapesp.br/oportunidades/mais-recentes/",
-  "scraped_at": "2026-09-10T16:15:45+00:00",
+  "scraped_at": "2026-09-11T16:19:44+00:00",
   "modalities": [
     "TT-IV",
     "TT-IV-A",
     "TT-V"
   ],
-  "count": 7,
+  "count": 8,
   "opportunities": [
     {
       "id": "9802",
@@ -72,6 +72,19 @@
       "deadline_display": "24/09/2026",
       "summary": "O perfil do(a) bolsista requerido é o de um(a) desenvolvedor(a) sênior na área de dados com experiência em back-end e capacidade de atuar em atividades técnicas complexas, em linha com as exigências da Bolsa FAPESP de Treinamento Técnico nível cinco (TT-V).\n\nEntre as atividades previstas estão:\n\n1....",
       "url": "https://fapesp.br/oportunidades/agentes-de-inteligencia-artificial-para-materiais-complexos-de-hospital-e-saude-(chm)/9834/"
+    },
+    {
+      "id": "9837",
+      "title": "Bolsa de TT-IV-A em Design de Front-End",
+      "modality": "TT-IV-A",
+      "area": "Ciência da Computação",
+      "interdisciplinary": false,
+      "institution": "Faculdade de Arquitetura e Urbanismo e de Design, Universidade de São Paulo (FAU-USP)",
+      "city": "São Paulo",
+      "deadline": "2026-09-28",
+      "deadline_display": "28/09/2026",
+      "summary": "O plano de trabalho da Bolsa de Treinamento Técnico nível quatro “a” (TT-IV-A) integra-se ao Projeto Temático “Experiência ARQUIGRAFIA 4.0” e concentra-se nas atividades técnicas indispensáveis para finalizar o desenvolvimento e implementação completa da nova versão da plataforma www.arquigrafia.org.br. O bolsista irá integrar a equipe de...",
+      "url": "https://fapesp.br/oportunidades/experiencia-arquigrafia-4.0/9837/"
     },
     {
       "id": "9795",
