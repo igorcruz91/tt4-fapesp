@@ -1,26 +1,13 @@
 {
   "source": "https://fapesp.br/oportunidades/mais-recentes/",
-  "scraped_at": "2026-09-16T16:39:58+00:00",
+  "scraped_at": "2026-09-17T16:47:00+00:00",
   "modalities": [
     "TT-IV",
     "TT-IV-A",
     "TT-V"
   ],
-  "count": 8,
+  "count": 7,
   "opportunities": [
-    {
-      "id": "9802",
-      "title": "Bolsa de TT-V em Biofísico-Química",
-      "modality": "TT-V",
-      "area": "Química",
-      "interdisciplinary": true,
-      "institution": "Instituto de Química, Universidade Estadual de Campinas (IQ-Unicamp)",
-      "city": "Campinas",
-      "deadline": "2026-09-16",
-      "deadline_display": "16/09/2026",
-      "summary": "O candidato selecionado para esta bolsa de Treinamento Técnico (TT-5) irá investigar reações catalíticas enzima-substrato usando simulações QM/MM e DFT do estado-da-arte. Atuará na engenharia de enzimas in silico com Inteligência Artificial para propor mutações que otimizem a atividade e estabilidade térmica de enzimas ativas...",
-      "url": "https://fapesp.br/oportunidades/desenvolvimento-de-estrategias-avancadas-em-quimica-verde-aplicadas-a-biodegradacao-e-valorizacao-de-polimeros-fosseis/9802/"
-    },
     {
       "id": "9728",
       "title": "Bolsa de TT-V em Engenharia / Computação",
