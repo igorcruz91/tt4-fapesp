@@ -42,16 +42,53 @@ Esse é um filtro simples por palavra-chave (compatível com o escopo do V1,
 sem LLM). Se o radar passar a errar por falta ou excesso de resultados,
 ajuste as listas `CORE_AREAS`/`RELEVANCE_KEYWORDS` no topo do script.
 
-## Rodar localmente
+## Rodar localmente (passo a passo)
+
+Todos os comandos abaixo são executados no terminal, **dentro da pasta do
+projeto** (a pasta que contém `index.html` e `scraper/`).
+
+### 1. Instalar as dependências (só na primeira vez)
 
 ```bash
 pip install -r requirements.txt
+```
+
+### 2. Buscar as oportunidades atualizadas
+
+```bash
 python scraper/fetch_fapesp.py
 ```
 
-Depois abra `index.html` num servidor local (por exemplo `python -m http.server`)
-— não abra o arquivo direto (`file://`), pois o `fetch` do JSON é bloqueado
-por CORS nesse esquema.
+Isso baixa a página da FAPESP e atualiza o arquivo `data/oportunidades.json`.
+Repita este passo sempre que quiser dados novos.
+
+### 3. Abrir a aplicação no navegador
+
+Inicie um servidor local:
+
+```bash
+python -m http.server 8000
+```
+
+Deixe esse terminal aberto e, no navegador, acesse:
+
+**http://localhost:8000**
+
+> **Importante:** não dê duplo clique em `index.html`. Abrindo o arquivo
+> direto (`file://`), o navegador bloqueia a leitura do JSON e a página fica
+> vazia. É necessário passar pelo servidor acima.
+
+### 4. Encerrar
+
+Volte ao terminal do servidor e pressione `Ctrl+C`.
+
+### Problemas comuns
+
+- **A página mostra dados antigos:** rode o passo 2 de novo e recarregue o
+  navegador com `Ctrl+F5`.
+- **"Address already in use" / porta ocupada:** use outra porta, por exemplo
+  `python -m http.server 8080`, e acesse `http://localhost:8080`.
+- **`python` não é reconhecido:** tente `py` no lugar de `python`.
 
 ## Publicar no GitHub Pages
 
