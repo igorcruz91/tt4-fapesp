@@ -1,26 +1,13 @@
 {
   "source": "https://fapesp.br/oportunidades/mais-recentes/",
-  "scraped_at": "2026-09-18T16:15:37+00:00",
+  "scraped_at": "2026-09-19T15:46:21+00:00",
   "modalities": [
     "TT-IV",
     "TT-IV-A",
     "TT-V"
   ],
-  "count": 7,
+  "count": 6,
   "opportunities": [
-    {
-      "id": "9728",
-      "title": "Bolsa de TT-V em Engenharia / Computação",
-      "modality": "TT-V",
-      "area": "Engenharia",
-      "interdisciplinary": true,
-      "institution": "Instituto de Pesquisas Tecnológicas (IPT)",
-      "city": "São Paulo",
-      "deadline": "2026-09-18",
-      "deadline_display": "18/09/2026",
-      "summary": "O bolsista de Treinamento Técnico nível cinco (TT-V) participará do projeto de uma arquitetura modular de software para suporte a Gêmeos Digitais e simulações imersivas em nuvem, garantindo a interoperabilidade bidirecional entre modelos de engenharia, fontes de dados operacionais e clientes XR heterogêneos, e será...",
-      "url": "https://fapesp.br/oportunidades/centro-de-pesquisa-aplicada-em-inteligencia-artificial:-impulsionando-a-transformacao-das-industrias-rumo-ao-padrao-5.0-(iasmin)/9728/"
-    },
     {
       "id": "9764",
       "title": "Bolsas de TT-IV em Recuperação da Informação e Inteligência Artificial",
