@@ -1,26 +1,13 @@
 {
   "source": "https://fapesp.br/oportunidades/mais-recentes/",
-  "scraped_at": "2026-09-20T15:55:04+00:00",
+  "scraped_at": "2026-09-21T18:09:01+00:00",
   "modalities": [
     "TT-IV",
     "TT-IV-A",
     "TT-V"
   ],
-  "count": 6,
+  "count": 5,
   "opportunities": [
-    {
-      "id": "9764",
-      "title": "Bolsas de TT-IV em Recuperação da Informação e Inteligência Artificial",
-      "modality": "TT-IV",
-      "area": "Ciência da Computação",
-      "interdisciplinary": false,
-      "institution": "Institutito de Geociências e Ciências Exatas, Universidade Estadual Paulista (IGCE-Unesp)",
-      "city": "Rio Claro",
-      "deadline": "2026-09-20",
-      "deadline_display": "20/09/2026",
-      "summary": "O projeto é uma colaboração internacional entre o Instituto IDIAP (Suíça) e a Universidade Estadual de São Paulo (UNESP), com equipes de pesquisa em ambos os países. O projeto é coordenado pelo Prof. Andre Freitas (IDIAP) e pelo Prof. Daniel Pedronette (UNESP). O bolsista de...",
-      "url": "https://fapesp.br/oportunidades/recuperacao-aumentada-e-robusta-para-tarefas-de-inferencia-em-linguagem-natural-utilizando-modelos-baseados-em-transformers-–-rational/9764/"
-    },
     {
       "id": "9833",
       "title": "Bolsa de TT-V em Desenvolvimento Front-End",
