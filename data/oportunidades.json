@@ -1,12 +1,12 @@
 {
   "source": "https://fapesp.br/oportunidades/mais-recentes/",
-  "scraped_at": "2026-09-22T16:45:32+00:00",
+  "scraped_at": "2026-09-23T16:41:45+00:00",
   "modalities": [
     "TT-IV",
     "TT-IV-A",
     "TT-V"
   ],
-  "count": 5,
+  "count": 7,
   "opportunities": [
     {
       "id": "9833",
@@ -72,6 +72,32 @@
       "deadline_display": "30/09/2026",
       "summary": "Bolsa FAPESP de Treinamento Técnico nível cinco (TT-V) de 12 meses (40 h semanais). O bolsista atuará no refinamento e na consolidação de rede neural profunda própria para segmentação automática de defeitos cranianos e geração de próteses personalizadas. Atividades: medir a linha de base do modelo (Dice/IoU...",
       "url": "https://fapesp.br/oportunidades/desenvolvimento-de-processo-para-cranioplastia-por-manufatura-aditiva-sls-com-modelagem-auxiliada-por-ia/9678/"
+    },
+    {
+      "id": "9877",
+      "title": "Bolsa de TT-IV em Química Computacional",
+      "modality": "TT-IV",
+      "area": "Biofísica",
+      "interdisciplinary": false,
+      "institution": "Instituto de Química, Universidade de São Paulo (IQ-USP)",
+      "city": "São Paulo",
+      "deadline": "2026-10-09",
+      "deadline_display": "09/10/2026",
+      "summary": "Construção e validação de modelos estruturais tridimensionais de complexos respiratórios mitocondriais por métodos de modelagem por homologia e previsão estrutural assistida por inteligência artificial, incluindo o preenchimento consistente de cofatores e grupos prostéticos. O(A) bolsista de Treinamento Técnico nível quatro (TT-IV) atuará na geração de modelos...",
+      "url": "https://fapesp.br/oportunidades/acoplamento-energetico-e-inibicao-dos-complexos-respiratorios:-uma-abordagem-integrada-de-simulacao-molecular-e-inteligencia-artificial/9877/"
+    },
+    {
+      "id": "9874",
+      "title": "Bolsa de TT-IV em Experiência do Usuário",
+      "modality": "TT-IV",
+      "area": "Ciência da Computação",
+      "interdisciplinary": false,
+      "institution": "Centro de Ciências em Gestão e Tecnologia, Universidade Federal de São Carlos (CCGT-UFSCar)",
+      "city": "Sorocaba",
+      "deadline": "2026-10-31",
+      "deadline_display": "31/10/2026",
+      "summary": "- Implementar cenários de ambientes de tráfego urbano em simuladores usando tecnologias como CARLA e Unreal Engin;\n\n - Auxiliar no planejamento e execução de avaliações da experiência do usuário (UX) em ambientes simulados;\n\n- Elaboração de relatórios técnicos envolvendo as avaliações e a elaboração dos cenários de...",
+      "url": "https://fapesp.br/oportunidades/um-framework-para-avaliacao-imersiva-de-ux-longitudinal-em-ecossistemas-de-transito-urbano-de-cidades-inteligentes/9874/"
     }
   ]
 }
