@@ -1,39 +1,13 @@
 {
   "source": "https://fapesp.br/oportunidades/mais-recentes/",
-  "scraped_at": "2026-09-24T16:59:14+00:00",
+  "scraped_at": "2026-09-25T17:01:26+00:00",
   "modalities": [
     "TT-IV",
     "TT-IV-A",
     "TT-V"
   ],
-  "count": 7,
+  "count": 6,
   "opportunities": [
-    {
-      "id": "9833",
-      "title": "Bolsa de TT-V em Desenvolvimento Front-End",
-      "modality": "TT-V",
-      "area": "Ciência da Computação",
-      "interdisciplinary": false,
-      "institution": "Neopto Propriedade Imaterial Ltda./NEOPTO",
-      "city": "São Paulo",
-      "deadline": "2026-09-24",
-      "deadline_display": "24/09/2026",
-      "summary": "O(A) bolsista trabalhará em:\n\n1. Interface Intuitiva e Responsiva: navegação fácil e adaptável a qualquer dispositivo (desktop, tablet ou smartphone);\n\n2. Pedidos Ágeis: simplificação da aquisição de materiais para maior eficiência operacional;\n\n3. Segurança e Privacidade: conformidade com a LGPD para proteção total de dados sensíveis;\n\n4. Busca e...",
-      "url": "https://fapesp.br/oportunidades/agentes-de-inteligencia-artificial-para-materiais-complexos-de-hospital-e-saude-(chm)/9833/"
-    },
-    {
-      "id": "9834",
-      "title": "Bolsa de TT-V em Ciência de Dados e Back-End",
-      "modality": "TT-V",
-      "area": "Ciência da Computação",
-      "interdisciplinary": false,
-      "institution": "NeoPTO Propriedade Imaterial Ltda./NEOPTO",
-      "city": "São Paulo",
-      "deadline": "2026-09-24",
-      "deadline_display": "24/09/2026",
-      "summary": "O perfil do(a) bolsista requerido é o de um(a) desenvolvedor(a) sênior na área de dados com experiência em back-end e capacidade de atuar em atividades técnicas complexas, em linha com as exigências da Bolsa FAPESP de Treinamento Técnico nível cinco (TT-V).\n\nEntre as atividades previstas estão:\n\n1....",
-      "url": "https://fapesp.br/oportunidades/agentes-de-inteligencia-artificial-para-materiais-complexos-de-hospital-e-saude-(chm)/9834/"
-    },
     {
       "id": "9837",
       "title": "Bolsa de TT-IV-A em Design de Front-End",
@@ -72,6 +46,19 @@
       "deadline_display": "30/09/2026",
       "summary": "Bolsa FAPESP de Treinamento Técnico nível cinco (TT-V) de 12 meses (40 h semanais). O bolsista atuará no refinamento e na consolidação de rede neural profunda própria para segmentação automática de defeitos cranianos e geração de próteses personalizadas. Atividades: medir a linha de base do modelo (Dice/IoU...",
       "url": "https://fapesp.br/oportunidades/desenvolvimento-de-processo-para-cranioplastia-por-manufatura-aditiva-sls-com-modelagem-auxiliada-por-ia/9678/"
+    },
+    {
+      "id": "9888",
+      "title": "Bolsa de TT-IV em Ciência de Dados / Aprendizado de Máquina / People Analytics",
+      "modality": "TT-IV",
+      "area": "Ciência da Computação",
+      "interdisciplinary": false,
+      "institution": "3Clicksrh Ltda.",
+      "city": "São Paulo",
+      "deadline": "2026-10-09",
+      "deadline_display": "09/10/2026",
+      "summary": "Construção, do zero, de uma plataforma preditiva de IA aplicada a decisões sobre desempenho, retenção e sucessão de lideranças. O projeto conta com estação local de IA (NVIDIA/AMD, 128 GB de memória unificada) para executar e enriquecer modelos de LLM localmente, sem depender de APIs...",
+      "url": "https://fapesp.br/oportunidades/desenvolvimento-experimental-de-plataforma-preditiva-baseada-em-inteligencia-artificial-e-machine-learning-para-otimizacao-e-aceleracao-do-desempenho-e-retencao-de-talentos-na-gestao-das-pessoas-visando-a-sucessao-e-perenidade-das-organizacoes/9888/"
     },
     {
       "id": "9877",
