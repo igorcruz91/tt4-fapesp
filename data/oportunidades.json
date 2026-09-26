@@ -1,12 +1,12 @@
 {
   "source": "https://fapesp.br/oportunidades/mais-recentes/",
-  "scraped_at": "2026-09-25T17:01:26+00:00",
+  "scraped_at": "2026-09-26T16:14:08+00:00",
   "modalities": [
     "TT-IV",
     "TT-IV-A",
     "TT-V"
   ],
-  "count": 6,
+  "count": 7,
   "opportunities": [
     {
       "id": "9837",
@@ -72,6 +72,19 @@
       "deadline_display": "09/10/2026",
       "summary": "Construção e validação de modelos estruturais tridimensionais de complexos respiratórios mitocondriais por métodos de modelagem por homologia e previsão estrutural assistida por inteligência artificial, incluindo o preenchimento consistente de cofatores e grupos prostéticos. O(A) bolsista de Treinamento Técnico nível quatro (TT-IV) atuará na geração de modelos...",
       "url": "https://fapesp.br/oportunidades/acoplamento-energetico-e-inibicao-dos-complexos-respiratorios:-uma-abordagem-integrada-de-simulacao-molecular-e-inteligencia-artificial/9877/"
+    },
+    {
+      "id": "9889",
+      "title": "Bolsa de TT-IV-A em DevOps / Infraestrutura em Nuvem / MLOps",
+      "modality": "TT-IV-A",
+      "area": "Ciência da Computação",
+      "interdisciplinary": false,
+      "institution": "3Clicksrh Ltda.",
+      "city": "São Paulo",
+      "deadline": "2026-10-31",
+      "deadline_display": "31/10/2026",
+      "summary": "Implantação e sustentação da infraestrutura de uma plataforma preditiva de IA construída do zero. O projeto conta com estação local de IA (NVIDIA/AMD, 128 GB de memória unificada) para executar e enriquecer modelos de LLM localmente, além de ambiente em nuvem AWS.\n\nAtividades: automação de ambientes...",
+      "url": "https://fapesp.br/oportunidades/desenvolvimento-experimental-de-plataforma-preditiva-baseada-em-inteligencia-artificial-e-machine-learning-para-otimizacao-e-aceleracao-do-desempenho-e-retencao-de-talentos-na-gestao-das-pessoas-visando-a-sucessao-e-perenidade-das-organizacoes/9889/"
     },
     {
       "id": "9874",
