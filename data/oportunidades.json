@@ -1,12 +1,12 @@
 {
   "source": "https://fapesp.br/oportunidades/mais-recentes/",
-  "scraped_at": "2026-09-27T16:50:01+00:00",
+  "scraped_at": "2026-09-28T19:33:31+00:00",
   "modalities": [
     "TT-IV",
     "TT-IV-A",
     "TT-V"
   ],
-  "count": 7,
+  "count": 8,
   "opportunities": [
     {
       "id": "9837",
@@ -72,6 +72,19 @@
       "deadline_display": "09/10/2026",
       "summary": "Construção e validação de modelos estruturais tridimensionais de complexos respiratórios mitocondriais por métodos de modelagem por homologia e previsão estrutural assistida por inteligência artificial, incluindo o preenchimento consistente de cofatores e grupos prostéticos. O(A) bolsista de Treinamento Técnico nível quatro (TT-IV) atuará na geração de modelos...",
       "url": "https://fapesp.br/oportunidades/acoplamento-energetico-e-inibicao-dos-complexos-respiratorios:-uma-abordagem-integrada-de-simulacao-molecular-e-inteligencia-artificial/9877/"
+    },
+    {
+      "id": "9892",
+      "title": "Bolsa de TT-IV em Segurança Alimentar",
+      "modality": "TT-IV",
+      "area": "Saúde Coletiva",
+      "interdisciplinary": true,
+      "institution": "Faculdade de Engenharia de Alimentos, Universidade Estadual de Campinas (FEA-Unicamp)",
+      "city": "Campinas",
+      "deadline": "2026-10-30",
+      "deadline_display": "30/10/2026",
+      "summary": "O bolsista de TT4 atuará em atividades voltadas ao acompanhamento, sistematização e análise de dados do projeto “Cozinhas Solidárias em Campinas/SP”, com ênfase na identificação de lacunas e na proposição de estratégias para o fortalecimento do apoio da gestão pública junto a essas iniciativas.\n...",
+      "url": "https://fapesp.br/oportunidades/acompanhamento-sistematizacao-e-analise-de-dados-da-implementacao-de-cozinhas-solidarias-no-municipio-de-campinas-sp./9892/"
     },
     {
       "id": "9889",
