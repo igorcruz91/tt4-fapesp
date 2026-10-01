@@ -1,39 +1,13 @@
 {
   "source": "https://fapesp.br/oportunidades/mais-recentes/",
-  "scraped_at": "2026-09-30T17:55:42+00:00",
+  "scraped_at": "2026-10-01T18:21:00+00:00",
   "modalities": [
     "TT-IV",
     "TT-IV-A",
     "TT-V"
   ],
-  "count": 7,
+  "count": 5,
   "opportunities": [
-    {
-      "id": "9795",
-      "title": "Bolsa de TT-V em Agrometeorologia e Modelagem Agrícola",
-      "modality": "TT-V",
-      "area": "Agronomia",
-      "interdisciplinary": true,
-      "institution": "Escola Superior de Agricultura Luiz de Queiroz, Universidade de São Paulo (ESALQ-USP)",
-      "city": "Piracicaba",
-      "deadline": "2026-09-30",
-      "deadline_display": "30/09/2026",
-      "summary": "O bolsista de Treinamento Técnico nível cinco (TT-V) irá conduzir experimento de campo com eddy covariance em pomar de citros e desenvolver, a partir de bancos de dados em modelos baseados em processos, trabalhos de modelagem e balanço de água e carbono na citricultura.\n...",
-      "url": "https://fapesp.br/oportunidades/centro-de-pesquisa-aplicada-em-inovacao-e-sustentabilidade-da-citricultura-(cpa-citros)/9795/"
-    },
-    {
-      "id": "9678",
-      "title": "Bolsa de TT-V em Inteligência Artificial aplicada à Saúde",
-      "modality": "TT-V",
-      "area": "Ciência da Informação",
-      "interdisciplinary": true,
-      "institution": "C3M Soluções em Medicina de Catástrofe Ltda.",
-      "city": "Campinas",
-      "deadline": "2026-09-30",
-      "deadline_display": "30/09/2026",
-      "summary": "Bolsa FAPESP de Treinamento Técnico nível cinco (TT-V) de 12 meses (40 h semanais). O bolsista atuará no refinamento e na consolidação de rede neural profunda própria para segmentação automática de defeitos cranianos e geração de próteses personalizadas. Atividades: medir a linha de base do modelo (Dice/IoU...",
-      "url": "https://fapesp.br/oportunidades/desenvolvimento-de-processo-para-cranioplastia-por-manufatura-aditiva-sls-com-modelagem-auxiliada-por-ia/9678/"
-    },
     {
       "id": "9888",
       "title": "Bolsa de TT-IV em Ciência de Dados / Aprendizado de Máquina / People Analytics",
