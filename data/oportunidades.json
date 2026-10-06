@@ -1,12 +1,12 @@
 {
   "source": "https://fapesp.br/oportunidades/mais-recentes/",
-  "scraped_at": "2026-10-04T16:46:11+00:00",
+  "scraped_at": "2026-10-06T18:15:23+00:00",
   "modalities": [
     "TT-IV",
     "TT-IV-A",
     "TT-V"
   ],
-  "count": 5,
+  "count": 7,
   "opportunities": [
     {
       "id": "9888",
@@ -33,6 +33,32 @@
       "deadline_display": "09/10/2026",
       "summary": "Construção e validação de modelos estruturais tridimensionais de complexos respiratórios mitocondriais por métodos de modelagem por homologia e previsão estrutural assistida por inteligência artificial, incluindo o preenchimento consistente de cofatores e grupos prostéticos. O(A) bolsista de Treinamento Técnico nível quatro (TT-IV) atuará na geração de modelos...",
       "url": "https://fapesp.br/oportunidades/acoplamento-energetico-e-inibicao-dos-complexos-respiratorios:-uma-abordagem-integrada-de-simulacao-molecular-e-inteligencia-artificial/9877/"
+    },
+    {
+      "id": "9907",
+      "title": "Bolsa de TT-V em Medicina Veterinária Regenerativa",
+      "modality": "TT-V",
+      "area": "Medicina Veterinária",
+      "interdisciplinary": true,
+      "institution": "Soluções em Biotecnologia 3D - Engenharia Tecidual Ltda/3DBSTISSUES",
+      "city": "Campinas",
+      "deadline": "2026-10-20",
+      "deadline_display": "20/10/2026",
+      "summary": "Principais atividades: Participação em atividades de pesquisa e desenvolvimento, incluindo execução e padronização de protocolos, coleta e processamento de sangue equino, processamento e caracterização de amostras biológicas, ensaios bioquímicos e de biologia molecular, avaliação de biomateriais e produtos biológicos, organização e análise de dados experimentais...",
+      "url": "https://fapesp.br/oportunidades/kit-comercial-de-membrana-eletrofiada-associada-ao-lisado-plaquetario-como-estrategia-de-engenharia-tecidual-para-aplicacao-em-medicina-regenerativa-veterinaria/9907/"
+    },
+    {
+      "id": "9909",
+      "title": "Bolsa de TT-IV-A em Bioinformática",
+      "modality": "TT-IV-A",
+      "area": "Interdisciplinar",
+      "interdisciplinary": true,
+      "institution": "Hospital Israelita Albert Einstein",
+      "city": "São Paulo",
+      "deadline": "2026-10-23",
+      "deadline_display": "23/10/2026",
+      "summary": "O projeto está focado na realização das análises computacionais necessárias para o desenvolvimento de um modelo preditivo capaz de estimar com acurácia o enriquecimento relativo das células-tronco hematopoiéticas em populações celulares heterogêneas, um passo importante para avaliar a qualidade de preparações celulares utilizadas em terapias...",
+      "url": "https://fapesp.br/oportunidades/identificacao-e-avaliacao-de-assinatura-de-expressao-genica-de-celulas-tronco-hematopoieticas-por-abordagens-de-biologia-de-sistemas-e-aprendizado-de-maquina/9909/"
     },
     {
       "id": "9892",
