@@ -1,39 +1,13 @@
 {
   "source": "https://fapesp.br/oportunidades/mais-recentes/",
-  "scraped_at": "2026-10-09T18:16:16+00:00",
+  "scraped_at": "2026-10-10T17:15:30+00:00",
   "modalities": [
     "TT-IV",
     "TT-IV-A",
     "TT-V"
   ],
-  "count": 7,
+  "count": 5,
   "opportunities": [
-    {
-      "id": "9888",
-      "title": "Bolsa de TT-IV em Ciência de Dados / Aprendizado de Máquina / People Analytics",
-      "modality": "TT-IV",
-      "area": "Ciência da Computação",
-      "interdisciplinary": false,
-      "institution": "3Clicksrh Ltda.",
-      "city": "São Paulo",
-      "deadline": "2026-10-09",
-      "deadline_display": "09/10/2026",
-      "summary": "Construção, do zero, de uma plataforma preditiva de IA aplicada a decisões sobre desempenho, retenção e sucessão de lideranças. O projeto conta com estação local de IA (NVIDIA/AMD, 128 GB de memória unificada) para executar e enriquecer modelos de LLM localmente, sem depender de APIs...",
-      "url": "https://fapesp.br/oportunidades/desenvolvimento-experimental-de-plataforma-preditiva-baseada-em-inteligencia-artificial-e-machine-learning-para-otimizacao-e-aceleracao-do-desempenho-e-retencao-de-talentos-na-gestao-das-pessoas-visando-a-sucessao-e-perenidade-das-organizacoes/9888/"
-    },
-    {
-      "id": "9877",
-      "title": "Bolsa de TT-IV em Química Computacional",
-      "modality": "TT-IV",
-      "area": "Biofísica",
-      "interdisciplinary": false,
-      "institution": "Instituto de Química, Universidade de São Paulo (IQ-USP)",
-      "city": "São Paulo",
-      "deadline": "2026-10-09",
-      "deadline_display": "09/10/2026",
-      "summary": "Construção e validação de modelos estruturais tridimensionais de complexos respiratórios mitocondriais por métodos de modelagem por homologia e previsão estrutural assistida por inteligência artificial, incluindo o preenchimento consistente de cofatores e grupos prostéticos. O(A) bolsista de Treinamento Técnico nível quatro (TT-IV) atuará na geração de modelos...",
-      "url": "https://fapesp.br/oportunidades/acoplamento-energetico-e-inibicao-dos-complexos-respiratorios:-uma-abordagem-integrada-de-simulacao-molecular-e-inteligencia-artificial/9877/"
-    },
     {
       "id": "9907",
       "title": "Bolsa de TT-V em Medicina Veterinária Regenerativa",
