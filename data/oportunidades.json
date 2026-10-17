@@ -1,12 +1,12 @@
 {
   "source": "https://fapesp.br/oportunidades/mais-recentes/",
-  "scraped_at": "2026-10-16T16:29:48+00:00",
+  "scraped_at": "2026-10-17T15:23:45+00:00",
   "modalities": [
     "TT-IV",
     "TT-IV-A",
     "TT-V"
   ],
-  "count": 5,
+  "count": 6,
   "opportunities": [
     {
       "id": "9907",
@@ -72,6 +72,19 @@
       "deadline_display": "31/10/2026",
       "summary": "- Implementar cenários de ambientes de tráfego urbano em simuladores usando tecnologias como CARLA e Unreal Engin;\n\n - Auxiliar no planejamento e execução de avaliações da experiência do usuário (UX) em ambientes simulados;\n\n- Elaboração de relatórios técnicos envolvendo as avaliações e a elaboração dos cenários de...",
       "url": "https://fapesp.br/oportunidades/um-framework-para-avaliacao-imersiva-de-ux-longitudinal-em-ecossistemas-de-transito-urbano-de-cidades-inteligentes/9874/"
+    },
+    {
+      "id": "9943",
+      "title": "Bolsa de TT-V em Bioinformatica",
+      "modality": "TT-V",
+      "area": "Interdisciplinar",
+      "interdisciplinary": true,
+      "institution": "Laboratório de Coleções Zoológicas/Instituto Butantan",
+      "city": "São Paulo",
+      "deadline": "2026-11-15",
+      "deadline_display": "15/11/2026",
+      "summary": "• Auxiliar alunos e pesquisadores no acesso aos servidores, instalação e execução de novos softwares.\n\n• Analisar e desenvolver pipelines para análise de dados de sequenciamento genômico e transcriptômico.\n\n• Desenvolver ferramentas em Perl, Python e/ou outras linguagens para tarefas específicas necessárias para estudar os genes e...",
+      "url": "https://fapesp.br/oportunidades/emu-infraestrutura-de-colecoes-biologicas:-aquisicao-de-plataforma-para-analise-e-disponibilizacao-de-dados-omicos-e-microtomograficos-dos-acervos-zoologicos-do-instituto-butantan/9943/"
     }
   ]
 }
