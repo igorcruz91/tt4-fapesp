@@ -1,12 +1,12 @@
 {
   "source": "https://fapesp.br/oportunidades/mais-recentes/",
-  "scraped_at": "2026-10-18T15:44:17+00:00",
+  "scraped_at": "2026-10-19T18:38:56+00:00",
   "modalities": [
     "TT-IV",
     "TT-IV-A",
     "TT-V"
   ],
-  "count": 6,
+  "count": 7,
   "opportunities": [
     {
       "id": "9907",
@@ -85,6 +85,19 @@
       "deadline_display": "15/11/2026",
       "summary": "• Auxiliar alunos e pesquisadores no acesso aos servidores, instalação e execução de novos softwares.\n\n• Analisar e desenvolver pipelines para análise de dados de sequenciamento genômico e transcriptômico.\n\n• Desenvolver ferramentas em Perl, Python e/ou outras linguagens para tarefas específicas necessárias para estudar os genes e...",
       "url": "https://fapesp.br/oportunidades/emu-infraestrutura-de-colecoes-biologicas:-aquisicao-de-plataforma-para-analise-e-disponibilizacao-de-dados-omicos-e-microtomograficos-dos-acervos-zoologicos-do-instituto-butantan/9943/"
+    },
+    {
+      "id": "9952",
+      "title": "Bolsa de TT-IV-A em Engenharia Biomédica / Neurociência Aplicada",
+      "modality": "TT-IV-A",
+      "area": "Medicina",
+      "interdisciplinary": true,
+      "institution": "Escola Paulista de Medicina, Universidade Federal de São Paulo (EPM-Unifesp)",
+      "city": "São Paulo",
+      "deadline": "2026-11-20",
+      "deadline_display": "20/11/2026",
+      "summary": "O projeto investiga os efeitos da fadiga física e mental sobre o desempenho cirúrgico, integrando sinais cerebrais (EEG), atividade muscular (EMG) e métricas de simuladores cirúrgicos de realidade virtual. O bolsista participará da aquisição e do processamento de sinais, da integração e análise de dados...",
+      "url": "https://fapesp.br/oportunidades/avaliacao-quantitativa-neuromuscular-da-fadiga-e-sua-repercussao-no-desempenho-cirurgico-simulado-na-cirurgia-minimamente-invasiva/9952/"
     }
   ]
 }
