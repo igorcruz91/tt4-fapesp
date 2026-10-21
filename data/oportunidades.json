@@ -1,26 +1,13 @@
 {
   "source": "https://fapesp.br/oportunidades/mais-recentes/",
-  "scraped_at": "2026-10-20T16:45:19+00:00",
+  "scraped_at": "2026-10-21T17:01:57+00:00",
   "modalities": [
     "TT-IV",
     "TT-IV-A",
     "TT-V"
   ],
-  "count": 7,
+  "count": 6,
   "opportunities": [
-    {
-      "id": "9907",
-      "title": "Bolsa de TT-V em Medicina Veterinária Regenerativa",
-      "modality": "TT-V",
-      "area": "Medicina Veterinária",
-      "interdisciplinary": true,
-      "institution": "Soluções em Biotecnologia 3D - Engenharia Tecidual Ltda/3DBSTISSUES",
-      "city": "Campinas",
-      "deadline": "2026-10-20",
-      "deadline_display": "20/10/2026",
-      "summary": "Principais atividades: Participação em atividades de pesquisa e desenvolvimento, incluindo execução e padronização de protocolos, coleta e processamento de sangue equino, processamento e caracterização de amostras biológicas, ensaios bioquímicos e de biologia molecular, avaliação de biomateriais e produtos biológicos, organização e análise de dados experimentais...",
-      "url": "https://fapesp.br/oportunidades/kit-comercial-de-membrana-eletrofiada-associada-ao-lisado-plaquetario-como-estrategia-de-engenharia-tecidual-para-aplicacao-em-medicina-regenerativa-veterinaria/9907/"
-    },
     {
       "id": "9909",
       "title": "Bolsa de TT-IV-A em Bioinformática",
