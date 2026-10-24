@@ -1,26 +1,13 @@
 {
   "source": "https://fapesp.br/oportunidades/mais-recentes/",
-  "scraped_at": "2026-10-23T16:53:53+00:00",
+  "scraped_at": "2026-10-24T15:46:29+00:00",
   "modalities": [
     "TT-IV",
     "TT-IV-A",
     "TT-V"
   ],
-  "count": 6,
+  "count": 5,
   "opportunities": [
-    {
-      "id": "9909",
-      "title": "Bolsa de TT-IV-A em Bioinformática",
-      "modality": "TT-IV-A",
-      "area": "Interdisciplinar",
-      "interdisciplinary": true,
-      "institution": "Hospital Israelita Albert Einstein",
-      "city": "São Paulo",
-      "deadline": "2026-10-23",
-      "deadline_display": "23/10/2026",
-      "summary": "O projeto está focado na realização das análises computacionais necessárias para o desenvolvimento de um modelo preditivo capaz de estimar com acurácia o enriquecimento relativo das células-tronco hematopoiéticas em populações celulares heterogêneas, um passo importante para avaliar a qualidade de preparações celulares utilizadas em terapias...",
-      "url": "https://fapesp.br/oportunidades/identificacao-e-avaliacao-de-assinatura-de-expressao-genica-de-celulas-tronco-hematopoieticas-por-abordagens-de-biologia-de-sistemas-e-aprendizado-de-maquina/9909/"
-    },
     {
       "id": "9892",
       "title": "Bolsa de TT-IV em Segurança Alimentar",
