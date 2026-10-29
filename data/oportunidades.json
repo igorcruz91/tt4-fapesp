@@ -1,12 +1,12 @@
 {
   "source": "https://fapesp.br/oportunidades/mais-recentes/",
-  "scraped_at": "2026-10-28T18:16:32+00:00",
+  "scraped_at": "2026-10-29T18:21:47+00:00",
   "modalities": [
     "TT-IV",
     "TT-IV-A",
     "TT-V"
   ],
-  "count": 5,
+  "count": 6,
   "opportunities": [
     {
       "id": "9892",
@@ -19,7 +19,7 @@
       "deadline": "2026-10-30",
       "deadline_display": "30/10/2026",
       "summary": "O bolsista de TT4 atuará em atividades voltadas ao acompanhamento, sistematização e análise de dados do projeto “Cozinhas Solidárias em Campinas/SP”, com ênfase na identificação de lacunas e na proposição de estratégias para o fortalecimento do apoio da gestão pública junto a essas iniciativas.\n...",
-      "url": "https://fapesp.br/oportunidades/acompanhamento-sistematizacao-e-analise-de-dados-da-implementacao-de-cozinhas-solidarias-no-municipio-de-campinas-sp./9892/"
+      "url": "https://fapesp.br/oportunidades/acompanhamento-sistematizacao-e-analise-de-dados-da-implementacao-de-cozinhas-solidarias-no-municipio-de-campinas-sp/9892/"
     },
     {
       "id": "9889",
@@ -58,7 +58,7 @@
       "deadline": "2026-11-15",
       "deadline_display": "15/11/2026",
       "summary": "• Auxiliar alunos e pesquisadores no acesso aos servidores, instalação e execução de novos softwares.\n\n• Analisar e desenvolver pipelines para análise de dados de sequenciamento genômico e transcriptômico.\n\n• Desenvolver ferramentas em Perl, Python e/ou outras linguagens para tarefas específicas necessárias para estudar os genes e...",
-      "url": "https://fapesp.br/oportunidades/emu-infraestrutura-de-colecoes-biologicas:-aquisicao-de-plataforma-para-analise-e-disponibilizacao-de-dados-omicos-e-microtomograficos-dos-acervos-zoologicos-do-instituto-butantan/9943/"
+      "url": "https://fapesp.br/oportunidades/emu-infraestrutura-de-colecoes-biologicas-aquisicao-de-plataforma-para-analise-e-disponibilizacao-de-dados-omicos-e-microtomograficos-dos-acervos-zoologicos-do-instituto-butantan/9943/"
     },
     {
       "id": "9952",
@@ -72,6 +72,19 @@
       "deadline_display": "20/11/2026",
       "summary": "O projeto investiga os efeitos da fadiga física e mental sobre o desempenho cirúrgico, integrando sinais cerebrais (EEG), atividade muscular (EMG) e métricas de simuladores cirúrgicos de realidade virtual. O bolsista participará da aquisição e do processamento de sinais, da integração e análise de dados...",
       "url": "https://fapesp.br/oportunidades/avaliacao-quantitativa-neuromuscular-da-fadiga-e-sua-repercussao-no-desempenho-cirurgico-simulado-na-cirurgia-minimamente-invasiva/9952/"
+    },
+    {
+      "id": "9975",
+      "title": "Bolsa de TT-V em Ciência da Computação",
+      "modality": "TT-V",
+      "area": "Ciência da Computação",
+      "interdisciplinary": false,
+      "institution": "A.C.Camargo Cancer Center",
+      "city": "São Paulo",
+      "deadline": "2026-11-30",
+      "deadline_display": "30/11/2026",
+      "summary": "Responsabilidades do bolsista de Treinamento Técnico nível cinco (TT-V): I. Prosseguir no desenvolvimento da plataforma web, incluindo a definição de requisitos de software; com foco na escalabilidade, segurança e usabilidade. II. Aprimorar a interface e o design da sala de situação e dos dashboards, assegurando...",
+      "url": "https://fapesp.br/oportunidades/plataforma-integrada-de-monitoramento-de-dados-oncologicos-do-estado-de-sao-paulo-integra-rhc-sp/9975/"
     }
   ]
 }
