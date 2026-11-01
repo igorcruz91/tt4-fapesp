@@ -1,39 +1,13 @@
 {
   "source": "https://fapesp.br/oportunidades/mais-recentes/",
-  "scraped_at": "2026-10-31T17:09:29+00:00",
+  "scraped_at": "2026-11-01T17:51:20+00:00",
   "modalities": [
     "TT-IV",
     "TT-IV-A",
     "TT-V"
   ],
-  "count": 5,
+  "count": 3,
   "opportunities": [
-    {
-      "id": "9889",
-      "title": "Bolsa de TT-IV-A em DevOps / Infraestrutura em Nuvem / MLOps",
-      "modality": "TT-IV-A",
-      "area": "Ciência da Computação",
-      "interdisciplinary": false,
-      "institution": "3Clicksrh Ltda.",
-      "city": "São Paulo",
-      "deadline": "2026-10-31",
-      "deadline_display": "31/10/2026",
-      "summary": "Implantação e sustentação da infraestrutura de uma plataforma preditiva de IA construída do zero. O projeto conta com estação local de IA (NVIDIA/AMD, 128 GB de memória unificada) para executar e enriquecer modelos de LLM localmente, além de ambiente em nuvem AWS.\n\nAtividades: automação de ambientes...",
-      "url": "https://fapesp.br/oportunidades/desenvolvimento-experimental-de-plataforma-preditiva-baseada-em-inteligencia-artificial-e-machine-learning-para-otimizacao-e-aceleracao-do-desempenho-e-retencao-de-talentos-na-gestao-das-pessoas-visando-a-sucessao-e-perenidade-das-organizacoes/9889/"
-    },
-    {
-      "id": "9874",
-      "title": "Bolsa de TT-IV em Experiência do Usuário",
-      "modality": "TT-IV",
-      "area": "Ciência da Computação",
-      "interdisciplinary": false,
-      "institution": "Centro de Ciências em Gestão e Tecnologia, Universidade Federal de São Carlos (CCGT-UFSCar)",
-      "city": "Sorocaba",
-      "deadline": "2026-10-31",
-      "deadline_display": "31/10/2026",
-      "summary": "- Implementar cenários de ambientes de tráfego urbano em simuladores usando tecnologias como CARLA e Unreal Engin;\n\n - Auxiliar no planejamento e execução de avaliações da experiência do usuário (UX) em ambientes simulados;\n\n- Elaboração de relatórios técnicos envolvendo as avaliações e a elaboração dos cenários de...",
-      "url": "https://fapesp.br/oportunidades/um-framework-para-avaliacao-imersiva-de-ux-longitudinal-em-ecossistemas-de-transito-urbano-de-cidades-inteligentes/9874/"
-    },
     {
       "id": "9943",
       "title": "Bolsa de TT-V em Bioinformatica",
