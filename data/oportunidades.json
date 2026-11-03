@@ -1,12 +1,12 @@
 {
   "source": "https://fapesp.br/oportunidades/mais-recentes/",
-  "scraped_at": "2026-11-02T21:39:02+00:00",
+  "scraped_at": "2026-11-03T19:23:29+00:00",
   "modalities": [
     "TT-IV",
     "TT-IV-A",
     "TT-V"
   ],
-  "count": 3,
+  "count": 4,
   "opportunities": [
     {
       "id": "9943",
@@ -33,6 +33,19 @@
       "deadline_display": "20/11/2026",
       "summary": "O projeto investiga os efeitos da fadiga física e mental sobre o desempenho cirúrgico, integrando sinais cerebrais (EEG), atividade muscular (EMG) e métricas de simuladores cirúrgicos de realidade virtual. O bolsista participará da aquisição e do processamento de sinais, da integração e análise de dados...",
       "url": "https://fapesp.br/oportunidades/avaliacao-quantitativa-neuromuscular-da-fadiga-e-sua-repercussao-no-desempenho-cirurgico-simulado-na-cirurgia-minimamente-invasiva/9952/"
+    },
+    {
+      "id": "9988",
+      "title": "Bolsa de TT-IV-A em Sensoriamento Remoto e Aprendizado de Máquina",
+      "modality": "TT-IV-A",
+      "area": "Agronomia",
+      "interdisciplinary": true,
+      "institution": "Manaíba.tech",
+      "city": "Campinas",
+      "deadline": "2026-11-30",
+      "deadline_display": "30/11/2026",
+      "summary": "Projeto “Plataforma Digital de Monitoramento e Inteligência Agroflorestal” com experimentos em Sistemas Agroflorestais (SAFs) comerciais, apoiado pela FAPESP por meio do Programa de Pesquisa Inovativa em Pequenas Empresas (PIPE) e realizado em parceria com a Rizoma Agroflorestal . O bolsista irá: analisar correlações entre índices espectrais de...",
+      "url": "https://fapesp.br/oportunidades/plataforma-digital-de-monitoramento-e-inteligencia-agroflorestal/9988/"
     },
     {
       "id": "9975",
