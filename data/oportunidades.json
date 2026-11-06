@@ -1,12 +1,12 @@
 {
   "source": "https://fapesp.br/oportunidades/mais-recentes/",
-  "scraped_at": "2026-11-05T19:48:31+00:00",
+  "scraped_at": "2026-11-06T19:14:04+00:00",
   "modalities": [
     "TT-IV",
     "TT-IV-A",
     "TT-V"
   ],
-  "count": 4,
+  "count": 6,
   "opportunities": [
     {
       "id": "9943",
@@ -35,6 +35,19 @@
       "url": "https://fapesp.br/oportunidades/avaliacao-quantitativa-neuromuscular-da-fadiga-e-sua-repercussao-no-desempenho-cirurgico-simulado-na-cirurgia-minimamente-invasiva/9952/"
     },
     {
+      "id": "10011",
+      "title": "Bolsa de TT-IV em Caracterização e Análise Química",
+      "modality": "TT-IV",
+      "area": "Biofísica",
+      "interdisciplinary": false,
+      "institution": "Centro de Energia Nuclear na Agricultura, Universidade de São Paulo (CENA-USP)",
+      "city": "Piracicaba",
+      "deadline": "2026-11-22",
+      "deadline_display": "22/11/2026",
+      "summary": "O bolsista será treinado para operar o equipamento multiusuário de Ressonância Magnética Nuclear de baixo campo (FFC-NMR), ajustando parâmetros experimentais e sequências de pulsos e interpretando dados brutos. Será treinado para configurar sequências específicas conforme as necessidades do projeto, lidando com sistemas de eletrólitos e biomassa....",
+      "url": "https://fapesp.br/oportunidades/bioenergy-and-beyond-bio-bey-estabelecendo-a-ressonancia-magnetica-nuclear-por-varredura-rapida-de-campo-ffc-nmr-para-a-transicao-energetica-do-brasil/10011/"
+    },
+    {
       "id": "9988",
       "title": "Bolsa de TT-IV-A em Sensoriamento Remoto e Aprendizado de Máquina",
       "modality": "TT-IV-A",
@@ -59,6 +72,19 @@
       "deadline_display": "30/11/2026",
       "summary": "Responsabilidades do bolsista de Treinamento Técnico nível cinco (TT-V): I. Prosseguir no desenvolvimento da plataforma web, incluindo a definição de requisitos de software; com foco na escalabilidade, segurança e usabilidade. II. Aprimorar a interface e o design da sala de situação e dos dashboards, assegurando...",
       "url": "https://fapesp.br/oportunidades/plataforma-integrada-de-monitoramento-de-dados-oncologicos-do-estado-de-sao-paulo-integra-rhc-sp/9975/"
+    },
+    {
+      "id": "10007",
+      "title": "Bolsa de TT-IV-A em Desenvolvimento Full-Stack",
+      "modality": "TT-IV-A",
+      "area": "Ciência da Computação",
+      "interdisciplinary": false,
+      "institution": "Departamento de Computação, Universidade Federal de São Carlos (DC-UFSCar)",
+      "city": "São Carlos",
+      "deadline": "2026-12-05",
+      "deadline_display": "05/12/2026",
+      "summary": "O bolsista atuará no projeto BIP-Brain AIR (DC/UFSCar) desenvolvendo a camada full stack de uma plataforma web modular de neuroimagem quantitativa 3D. Será responsável pela implementação de APIs REST em Python/Node.js, modelagem PostgreSQL, orquestração de pipelines em Docker/S3, desenvolvimento de interfaces front-end responsivas com integração...",
+      "url": "https://fapesp.br/oportunidades/bip-brain-air-plataforma-web-modular-de-servicos-quantitativos-e-auditaveis-em-neuroimagem-estrutural-3d/10007/"
     }
   ]
 }
