@@ -1,6 +1,6 @@
 {
   "source": "https://fapesp.br/oportunidades/mais-recentes/",
-  "scraped_at": "2026-11-11T19:28:58+00:00",
+  "scraped_at": "2026-11-12T19:47:12+00:00",
   "modalities": [
     "TT-IV",
     "TT-IV-A",
@@ -19,7 +19,7 @@
       "deadline": "2026-11-15",
       "deadline_display": "15/11/2026",
       "summary": "• Auxiliar alunos e pesquisadores no acesso aos servidores, instalação e execução de novos softwares.\n\n• Analisar e desenvolver pipelines para análise de dados de sequenciamento genômico e transcriptômico.\n\n• Desenvolver ferramentas em Perl, Python e/ou outras linguagens para tarefas específicas necessárias para estudar os genes e...",
-      "url": "https://fapesp.br/oportunidades/emu-infraestrutura-de-colecoes-biologicas-aquisicao-de-plataforma-para-analise-e-disponibilizacao-de-dados-omicos-e-microtomograficos-dos-acervos-zoologicos-do-instituto-butantan/9943/"
+      "url": "https://fapesp.br/emu-infraestrutura-de-colecoes-biologicas-aquisicao-de-plataforma-para-analise-e-disponibilizacao-de-dados-omicos-e-microtomograficos-dos-acervos-zoologicos-do-instituto-butantan/9943/"
     },
     {
       "id": "9952",
@@ -32,7 +32,7 @@
       "deadline": "2026-11-20",
       "deadline_display": "20/11/2026",
       "summary": "O projeto investiga os efeitos da fadiga física e mental sobre o desempenho cirúrgico, integrando sinais cerebrais (EEG), atividade muscular (EMG) e métricas de simuladores cirúrgicos de realidade virtual. O bolsista participará da aquisição e do processamento de sinais, da integração e análise de dados...",
-      "url": "https://fapesp.br/oportunidades/avaliacao-quantitativa-neuromuscular-da-fadiga-e-sua-repercussao-no-desempenho-cirurgico-simulado-na-cirurgia-minimamente-invasiva/9952/"
+      "url": "https://fapesp.br/avaliacao-quantitativa-neuromuscular-da-fadiga-e-sua-repercussao-no-desempenho-cirurgico-simulado-na-cirurgia-minimamente-invasiva/9952/"
     },
     {
       "id": "10011",
@@ -45,7 +45,7 @@
       "deadline": "2026-11-22",
       "deadline_display": "22/11/2026",
       "summary": "O bolsista será treinado para operar o equipamento multiusuário de Ressonância Magnética Nuclear de baixo campo (FFC-NMR), ajustando parâmetros experimentais e sequências de pulsos e interpretando dados brutos. Será treinado para configurar sequências específicas conforme as necessidades do projeto, lidando com sistemas de eletrólitos e biomassa....",
-      "url": "https://fapesp.br/oportunidades/bioenergy-and-beyond-bio-bey-estabelecendo-a-ressonancia-magnetica-nuclear-por-varredura-rapida-de-campo-ffc-nmr-para-a-transicao-energetica-do-brasil/10011/"
+      "url": "https://fapesp.br/bioenergy-and-beyond-bio-bey-estabelecendo-a-ressonancia-magnetica-nuclear-por-varredura-rapida-de-campo-ffc-nmr-para-a-transicao-energetica-do-brasil/10011/"
     },
     {
       "id": "9988",
@@ -58,7 +58,7 @@
       "deadline": "2026-11-30",
       "deadline_display": "30/11/2026",
       "summary": "Projeto “Plataforma Digital de Monitoramento e Inteligência Agroflorestal” com experimentos em Sistemas Agroflorestais (SAFs) comerciais, apoiado pela FAPESP por meio do Programa de Pesquisa Inovativa em Pequenas Empresas (PIPE) e realizado em parceria com a Rizoma Agroflorestal . O bolsista irá: analisar correlações entre índices espectrais de...",
-      "url": "https://fapesp.br/oportunidades/plataforma-digital-de-monitoramento-e-inteligencia-agroflorestal/9988/"
+      "url": "https://fapesp.br/plataforma-digital-de-monitoramento-e-inteligencia-agroflorestal/9988/"
     },
     {
       "id": "9975",
@@ -71,7 +71,7 @@
       "deadline": "2026-11-30",
       "deadline_display": "30/11/2026",
       "summary": "Responsabilidades do bolsista de Treinamento Técnico nível cinco (TT-V): I. Prosseguir no desenvolvimento da plataforma web, incluindo a definição de requisitos de software; com foco na escalabilidade, segurança e usabilidade. II. Aprimorar a interface e o design da sala de situação e dos dashboards, assegurando...",
-      "url": "https://fapesp.br/oportunidades/plataforma-integrada-de-monitoramento-de-dados-oncologicos-do-estado-de-sao-paulo-integra-rhc-sp/9975/"
+      "url": "https://fapesp.br/plataforma-integrada-de-monitoramento-de-dados-oncologicos-do-estado-de-sao-paulo-integra-rhc-sp/9975/"
     },
     {
       "id": "10007",
@@ -84,7 +84,7 @@
       "deadline": "2026-12-05",
       "deadline_display": "05/12/2026",
       "summary": "O bolsista atuará no projeto BIP-Brain AIR (DC/UFSCar) desenvolvendo a camada full stack de uma plataforma web modular de neuroimagem quantitativa 3D. Será responsável pela implementação de APIs REST em Python/Node.js, modelagem PostgreSQL, orquestração de pipelines em Docker/S3, desenvolvimento de interfaces front-end responsivas com integração...",
-      "url": "https://fapesp.br/oportunidades/bip-brain-air-plataforma-web-modular-de-servicos-quantitativos-e-auditaveis-em-neuroimagem-estrutural-3d/10007/"
+      "url": "https://fapesp.br/bip-brain-air-plataforma-web-modular-de-servicos-quantitativos-e-auditaveis-em-neuroimagem-estrutural-3d/10007/"
     }
   ]
 }
