@@ -1,26 +1,13 @@
 {
   "source": "https://fapesp.br/oportunidades/mais-recentes/",
-  "scraped_at": "2026-11-15T18:43:31+00:00",
+  "scraped_at": "2026-11-16T21:53:42+00:00",
   "modalities": [
     "TT-IV",
     "TT-IV-A",
     "TT-V"
   ],
-  "count": 6,
+  "count": 5,
   "opportunities": [
-    {
-      "id": "9943",
-      "title": "Bolsa de TT-V em Bioinformatica",
-      "modality": "TT-V",
-      "area": "Interdisciplinar",
-      "interdisciplinary": true,
-      "institution": "Laboratório de Coleções Zoológicas/Instituto Butantan",
-      "city": "São Paulo",
-      "deadline": "2026-11-15",
-      "deadline_display": "15/11/2026",
-      "summary": "• Auxiliar alunos e pesquisadores no acesso aos servidores, instalação e execução de novos softwares.\n\n• Analisar e desenvolver pipelines para análise de dados de sequenciamento genômico e transcriptômico.\n\n• Desenvolver ferramentas em Perl, Python e/ou outras linguagens para tarefas específicas necessárias para estudar os genes e...",
-      "url": "https://fapesp.br/emu-infraestrutura-de-colecoes-biologicas-aquisicao-de-plataforma-para-analise-e-disponibilizacao-de-dados-omicos-e-microtomograficos-dos-acervos-zoologicos-do-instituto-butantan/9943/"
-    },
     {
       "id": "9952",
       "title": "Bolsa de TT-IV-A em Engenharia Biomédica / Neurociência Aplicada",
