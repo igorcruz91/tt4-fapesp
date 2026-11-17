@@ -1,12 +1,12 @@
 {
   "source": "https://fapesp.br/oportunidades/mais-recentes/",
-  "scraped_at": "2026-11-16T21:53:42+00:00",
+  "scraped_at": "2026-11-17T20:44:09+00:00",
   "modalities": [
     "TT-IV",
     "TT-IV-A",
     "TT-V"
   ],
-  "count": 5,
+  "count": 6,
   "opportunities": [
     {
       "id": "9952",
@@ -33,6 +33,19 @@
       "deadline_display": "22/11/2026",
       "summary": "O bolsista será treinado para operar o equipamento multiusuário de Ressonância Magnética Nuclear de baixo campo (FFC-NMR), ajustando parâmetros experimentais e sequências de pulsos e interpretando dados brutos. Será treinado para configurar sequências específicas conforme as necessidades do projeto, lidando com sistemas de eletrólitos e biomassa....",
       "url": "https://fapesp.br/bioenergy-and-beyond-bio-bey-estabelecendo-a-ressonancia-magnetica-nuclear-por-varredura-rapida-de-campo-ffc-nmr-para-a-transicao-energetica-do-brasil/10011/"
+    },
+    {
+      "id": "10048",
+      "title": "Bolsa de TT-IV-A em Ciência de Dados",
+      "modality": "TT-IV-A",
+      "area": "Ciência da Computação",
+      "interdisciplinary": false,
+      "institution": "Instituto de Psiquiatria, Hospital das Clínicas (IPq / HC-FMUSP)",
+      "city": "São Paulo",
+      "deadline": "2026-11-23",
+      "deadline_display": "23/11/2026",
+      "summary": "O(A) bolsista de Treinamento Técnico nível quatro “a” (TT-IV-A) atuará na etapa técnico-computacional do projeto ALERT-P, apoiando a curadoria, organização, controle de qualidade e processamento de vídeos curtos gravados por adolescentes e adultos jovens abordados em estratégia comunitária articulada à Atenção Primária à Saúde. Os...",
+      "url": "https://fapesp.br/alert-p-active-language-screening-for-early-recognition-and-treatment-in-psychosis---um-programa-baseado-em-inteligencia-artificial-para-deteccao-precoce-de-psicoses-e-doencas-mentais-graves/10048/"
     },
     {
       "id": "9988",
