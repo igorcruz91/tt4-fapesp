@@ -1,12 +1,12 @@
 {
   "source": "https://fapesp.br/oportunidades/mais-recentes/",
-  "scraped_at": "2026-11-19T20:24:18+00:00",
+  "scraped_at": "2026-11-20T19:55:24+00:00",
   "modalities": [
     "TT-IV",
     "TT-IV-A",
     "TT-V"
   ],
-  "count": 6,
+  "count": 7,
   "opportunities": [
     {
       "id": "9952",
@@ -85,6 +85,19 @@
       "deadline_display": "05/12/2026",
       "summary": "O bolsista atuará no projeto BIP-Brain AIR (DC/UFSCar) desenvolvendo a camada full stack de uma plataforma web modular de neuroimagem quantitativa 3D. Será responsável pela implementação de APIs REST em Python/Node.js, modelagem PostgreSQL, orquestração de pipelines em Docker/S3, desenvolvimento de interfaces front-end responsivas com integração...",
       "url": "https://fapesp.br/bip-brain-air-plataforma-web-modular-de-servicos-quantitativos-e-auditaveis-em-neuroimagem-estrutural-3d/10007/"
+    },
+    {
+      "id": "10060",
+      "title": "Bolsa de TT-IV-A em Desenvolvimento de Software",
+      "modality": "TT-IV-A",
+      "area": "Ciência da Computação",
+      "interdisciplinary": false,
+      "institution": "Faculdade de Medicina de Ribeirão Preto, Universidade de São Paulo (FMRP-USP)",
+      "city": "Ribeirão Preto",
+      "deadline": "2027-01-06",
+      "deadline_display": "06/01/2027",
+      "summary": "O grupo de pesquisa em neuroimagem da Faculdade de Medicina de Ribeirão Preto (USP) seleciona candidatos para Bolsa FAPESP de Treinamento Técnico nível quatro “a” (TT-IV-A) para atuar em engenharia de software científico. As atividades incluem estruturação, manutenção e distribuição de ferramentas de neuroimagem, conteinerização,...",
+      "url": "https://fapesp.br/desenvolvimento-de-ferramentas-computacionais-avancadas-para-analise-iin-vivo-i-de-ganglios-da-raiz-dorsal-e-integridade-da-medula-espinhal-em-neuronopatias-sensitivas/10060/"
     }
   ]
 }
