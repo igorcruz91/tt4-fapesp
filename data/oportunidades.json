@@ -1,26 +1,13 @@
 {
   "source": "https://fapesp.br/oportunidades/mais-recentes/",
-  "scraped_at": "2026-11-20T19:55:24+00:00",
+  "scraped_at": "2026-11-21T19:00:34+00:00",
   "modalities": [
     "TT-IV",
     "TT-IV-A",
     "TT-V"
   ],
-  "count": 7,
+  "count": 6,
   "opportunities": [
-    {
-      "id": "9952",
-      "title": "Bolsa de TT-IV-A em Engenharia Biomédica / Neurociência Aplicada",
-      "modality": "TT-IV-A",
-      "area": "Medicina",
-      "interdisciplinary": true,
-      "institution": "Escola Paulista de Medicina, Universidade Federal de São Paulo (EPM-Unifesp)",
-      "city": "São Paulo",
-      "deadline": "2026-11-20",
-      "deadline_display": "20/11/2026",
-      "summary": "O projeto investiga os efeitos da fadiga física e mental sobre o desempenho cirúrgico, integrando sinais cerebrais (EEG), atividade muscular (EMG) e métricas de simuladores cirúrgicos de realidade virtual. O bolsista participará da aquisição e do processamento de sinais, da integração e análise de dados...",
-      "url": "https://fapesp.br/avaliacao-quantitativa-neuromuscular-da-fadiga-e-sua-repercussao-no-desempenho-cirurgico-simulado-na-cirurgia-minimamente-invasiva/9952/"
-    },
     {
       "id": "10011",
       "title": "Bolsa de TT-IV em Caracterização e Análise Química",
