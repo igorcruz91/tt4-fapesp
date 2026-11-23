@@ -1,26 +1,13 @@
 {
   "source": "https://fapesp.br/oportunidades/mais-recentes/",
-  "scraped_at": "2026-11-22T19:25:04+00:00",
+  "scraped_at": "2026-11-23T23:44:09+00:00",
   "modalities": [
     "TT-IV",
     "TT-IV-A",
     "TT-V"
   ],
-  "count": 6,
+  "count": 5,
   "opportunities": [
-    {
-      "id": "10011",
-      "title": "Bolsa de TT-IV em Caracterização e Análise Química",
-      "modality": "TT-IV",
-      "area": "Biofísica",
-      "interdisciplinary": false,
-      "institution": "Centro de Energia Nuclear na Agricultura, Universidade de São Paulo (CENA-USP)",
-      "city": "Piracicaba",
-      "deadline": "2026-11-22",
-      "deadline_display": "22/11/2026",
-      "summary": "O bolsista será treinado para operar o equipamento multiusuário de Ressonância Magnética Nuclear de baixo campo (FFC-NMR), ajustando parâmetros experimentais e sequências de pulsos e interpretando dados brutos. Será treinado para configurar sequências específicas conforme as necessidades do projeto, lidando com sistemas de eletrólitos e biomassa....",
-      "url": "https://fapesp.br/bioenergy-and-beyond-bio-bey-estabelecendo-a-ressonancia-magnetica-nuclear-por-varredura-rapida-de-campo-ffc-nmr-para-a-transicao-energetica-do-brasil/10011/"
-    },
     {
       "id": "10048",
       "title": "Bolsa de TT-IV-A em Ciência de Dados",
