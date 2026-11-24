@@ -1,26 +1,13 @@
 {
   "source": "https://fapesp.br/oportunidades/mais-recentes/",
-  "scraped_at": "2026-11-23T23:44:09+00:00",
+  "scraped_at": "2026-11-24T22:16:09+00:00",
   "modalities": [
     "TT-IV",
     "TT-IV-A",
     "TT-V"
   ],
-  "count": 5,
+  "count": 4,
   "opportunities": [
-    {
-      "id": "10048",
-      "title": "Bolsa de TT-IV-A em Ciência de Dados",
-      "modality": "TT-IV-A",
-      "area": "Ciência da Computação",
-      "interdisciplinary": false,
-      "institution": "Instituto de Psiquiatria, Hospital das Clínicas (IPq / HC-FMUSP)",
-      "city": "São Paulo",
-      "deadline": "2026-11-23",
-      "deadline_display": "23/11/2026",
-      "summary": "O(A) bolsista de Treinamento Técnico nível quatro “a” (TT-IV-A) atuará na etapa técnico-computacional do projeto ALERT-P, apoiando a curadoria, organização, controle de qualidade e processamento de vídeos curtos gravados por adolescentes e adultos jovens abordados em estratégia comunitária articulada à Atenção Primária à Saúde. Os...",
-      "url": "https://fapesp.br/alert-p-active-language-screening-for-early-recognition-and-treatment-in-psychosis---um-programa-baseado-em-inteligencia-artificial-para-deteccao-precoce-de-psicoses-e-doencas-mentais-graves/10048/"
-    },
     {
       "id": "9988",
       "title": "Bolsa de TT-IV-A em Sensoriamento Remoto e Aprendizado de Máquina",
